@@ -1,0 +1,6 @@
+.cvtof{
+    width:calc(min(30vw,150px));
+    height:calc(min(30vw,150px));
+    border-radius:600px;
+    box-shadow: 0px 0px 5px #fff;
+}
