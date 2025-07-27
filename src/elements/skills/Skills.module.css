@@ -1,0 +1,13 @@
+.skillsContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.skillsContainer *{
+    font-size: 15vh;
+}
+
+.skillsContainer *:hover{
+    cursor: pointer;
+    text-shadow: 0 0 3px #fff; 
+}
