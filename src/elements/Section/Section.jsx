@@ -9,7 +9,7 @@ function Section(params) {
                 </div>
                 <h2>{params.title}</h2>
             </div>
-            <div>{params.content}</div>
+            <div className={styles.contentDiv}>{params.content}</div>
         </div>
     )
 }

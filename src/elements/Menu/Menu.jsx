@@ -12,13 +12,14 @@ function Menu(params) {
       <MenuBtn setmStatus={handleMenu} />
       <div
         style={{
-          height: mOpen ? "40vh" : "0px",
+          height: mOpen ? "30vh" : "0px",
         }}
         className={styles.linksDiv}
       >
         <a href ="#HOME">HOME</a>
         <a href ="#EDUCATION">EDUCATION</a>
         <a href ="#SKILLS">SKILLS</a>
+        <a href ="#EXPERIENCE">EXPERIENCE</a>
         <a href ="#PROJECTS">PROJECTS</a>
         <a href ="#REACH_OUT">REACH_OUT</a>
       </div>

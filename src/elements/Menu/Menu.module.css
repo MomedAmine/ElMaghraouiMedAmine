@@ -11,26 +11,26 @@
 .menuContainer i {
   font-size: 2rem;
 }
-
+/* 
 .menuContainer button {
   border-width: 0px;
   border-color: transparent;
   background-color: transparent;
   transition: 0.2s;
+  margin: auto;
 }
 .menuContainer button:hover {
   text-shadow: 0px 0px 3px #fff;
-  /* transform: ; */
   transform: scale(1.2);
-}
+} */
 .linksDiv{
   display:flex;
   flex-direction:column;
   justify-content : space-around;
-  width: calc(fit-content+20px);
+  min-width: 30vw;
   transition : 0.5s;
   overflow:hidden;
-  /* overflow-x:visible; */
+  /* overflow-x:; */
   
   font-size:1.2rem;
 }
@@ -42,4 +42,16 @@
 .linksDiv a:hover{
   text-shadow: 0px 0px 3px #fff;
   transform: translateX(15px);
+}
+
+@media screen and (width<500px) {
+  .menuContainer {
+  position: sticky;
+  top: 10px;
+  left: unset;
+  right: 10px;
+  transform: translateY(0%);
+  margin: 0;
+  background-color: #000000;
+}
 }

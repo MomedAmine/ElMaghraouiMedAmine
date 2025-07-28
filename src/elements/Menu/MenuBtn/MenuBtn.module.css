@@ -6,6 +6,7 @@
   background: transparent;
   cursor: pointer;
   display: block;
+  margin: 10px;
 }
 .burger:hover * {
   box-shadow: 0 0 5px #fff;

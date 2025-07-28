@@ -22,7 +22,8 @@ function App() {
       <Section
         icon="fa-solid fa-gear"
         title="SKILLS"
-        Id="SKILLS" /* content = {<Skills/>*/
+        Id="SKILLS" 
+        content = {<Skills/>}
       />
       <Section icon="fa-solid fa-user-tie" title="EXPERIENCE" Id="EXPERIENCE" />
       <Section
