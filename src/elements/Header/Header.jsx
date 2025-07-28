@@ -18,7 +18,7 @@ function Header(params) {
     setBr2(window.innerWidth < 350);
   }
   return (
-    <div className={styles.headerContainer}>
+    <div className={styles.headerContainer} id = {params.Id}>
       {/* 
         PIC
         NAME

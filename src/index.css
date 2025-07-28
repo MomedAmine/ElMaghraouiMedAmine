@@ -15,8 +15,10 @@
   justify-content: center;
   width: 100%;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 body{
-  scroll-behavior: smooth;
   background-color: #000;
 }

@@ -12,7 +12,7 @@ function App() {
   return (
     <div className={styles.mainContainer}>
       <Menu />
-      <Header />
+      <Header Id="HOME"/>
       <Section
         content={<Edu />}
         icon="fa-solid fa-graduation-cap"
