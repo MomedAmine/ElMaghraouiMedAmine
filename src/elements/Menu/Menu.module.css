@@ -1,0 +1,22 @@
+.menuContainer {
+  position: fixed;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 2rem;
+}
+.menuContainer i {
+  font-size: 2rem;
+}
+
+.menuContainer button {
+  border-width: 0px;
+  border-color: transparent;
+  background-color: transparent;
+  transition: 0.2s;
+}
+.menuContainer button:hover {
+  text-shadow: 0px 0px 3px #fff;
+  /* transform: ; */
+  transform: rotate(45deg) scale(1.2);
+}
