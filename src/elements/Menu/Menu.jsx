@@ -9,10 +9,12 @@ function Menu(params) {
   };
   return (
     <div className={styles.menuContainer}>
-      <MenuBtn setmStatus={handleMenu} />
+      <div className={styles.menuBtnDiv}>
+        <MenuBtn setmStatus={handleMenu} />
+      </div>
       <div
         style={{
-          height: mOpen ? "40vh" : "0px",
+          height: mOpen ? "30vh" : "0px",
         }}
         className={styles.linksDiv}
       >

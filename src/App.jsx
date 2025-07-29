@@ -5,6 +5,7 @@ import Section from "./elements/Section/Section";
 import Edu from "./elements/edu/Edu";
 import Skills from "./elements/skills/Skills";
 import Menu from "./elements/Menu/Menu";
+import Exps from "./elements/Exps/Exps";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -22,9 +23,11 @@ function App() {
       <Section
         icon="fa-solid fa-gear"
         title="SKILLS"
-        Id="SKILLS" /* content = {<Skills/>*/
+        Id="SKILLS" 
+        content = {<Skills/>}
       />
-      <Section icon="fa-solid fa-user-tie" title="EXPERIENCE" Id="EXPERIENCE" />
+      <Section icon="fa-solid fa-user-tie" title="EXPERIENCE" Id="EXPERIENCE"  
+        content = {<Exps/>}/>
       <Section
         icon="fa-solid fa-diagram-project"
         title="PROJECTS"

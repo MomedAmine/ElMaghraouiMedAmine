@@ -1,15 +1,17 @@
 import styles from "./Skills.module.css"
+import SSkill from "./SSkill/SSkill"
 function Skills(params) {
     return(
         <div className={styles.skillsContainer}>
-            <i class="fa-brands fa-python"></i>
-            <i class="fa-brands fa-square-js"></i>
-            <i class="fa-brands fa-html5"></i>
-            <i class="fa-brands fa-node-js"></i>
-            <i class="fa-brands fa-css"></i>
-            <p>C</p>
-            <p>C++</p>
-            <p>C#</p>
+            <SSkill Icon = {<i className="fa-brands fa-python"></i>} ttl = "Python"/>
+            <SSkill Icon = {<i className="fa-brands fa-square-js"></i>} ttl = "Javascript"/>
+            <SSkill Icon = {<i className="fa-brands fa-html5"></i>} ttl = "HTML5"/>
+            <SSkill Icon = {<i className="fa-brands fa-node-js"></i>} ttl = "Node.js"/>
+            <SSkill Icon = {<i className="fa-brands fa-css3-alt"></i>} ttl = "CSS3"/>
+            <SSkill Icon = {<i className="fa-solid fa-fire"></i>} ttl = "Firebase"/>
+            <SSkill Icon = {<p>C</p>} ttl = "C Programing"/>
+            <SSkill Icon = {<p>C#</p>} ttl = "C# Unity/.Net"/>
+            {/* <SSkill icon = {<p>C++</p>} ttl = ""/> */}
         </div>
     )
 }

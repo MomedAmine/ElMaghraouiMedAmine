@@ -1,0 +1,9 @@
+.trophy::marker {
+  content: "🏆";
+}
+.upper {
+  text-transform: uppercase;
+}
+.expsContainer div {
+  padding: 10px;
+}

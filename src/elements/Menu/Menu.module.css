@@ -44,3 +44,22 @@
   /* transform: translateX(15px); */
   padding-left: 15px;
 }
+
+@media screen and (width<500px) {
+  .menuContainer {
+    position: sticky;
+    top: 0;
+    left: unset;
+    right: 0;
+    transform: translateY(0px);
+    font-size: 1.5rem;
+    background-color: #000;
+    padding-bottom: 2vh;
+  }
+  .menuBtnDiv {
+    position: relative;
+    right: 10px;
+    top: 10px;
+    width: fit-content;
+  }
+}

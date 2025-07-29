@@ -1,13 +1,24 @@
-.skillsContainer{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.skillsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 25px;
+  width: 60vw;
 }
-.skillsContainer *{
-    font-size: 15vh;
+.skillsContainer i,
+.skillsContainer p {
+  font-size: calc(min(15vh, 25vw));
+  margin: 0;
 }
 
-.skillsContainer *:hover{
-    cursor: pointer;
-    text-shadow: 0 0 3px #fff; 
+.skillsContainer *:hover {
+  cursor: pointer;
+  text-shadow: 0 0 3px #fff;
+}
+
+@media screen and (max-width<500px) {
+  .skillsContainer {
+    width: 90vw;
+  }
 }

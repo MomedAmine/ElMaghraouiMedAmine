@@ -1,0 +1,11 @@
+.sskillContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.sskillContainer:hover {
+  padding: 0px 10px;
+  transform: scale(1.2);
+}
