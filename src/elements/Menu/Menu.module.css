@@ -4,9 +4,9 @@
   left: 2vw;
   transform: translateY(-50%);
   font-size: 2rem;
-  display:flex;
-  flex-direction : column;
-  gap : 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .menuContainer i {
   font-size: 2rem;
@@ -23,23 +23,24 @@
   /* transform: ; */
   transform: scale(1.2);
 }
-.linksDiv{
-  display:flex;
-  flex-direction:column;
-  justify-content : space-around;
+.linksDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   width: calc(fit-content+20px);
-  transition : 0.5s;
-  overflow:hidden;
+  transition: 0.5s;
+  overflow: hidden;
   /* overflow-x:visible; */
-  
-  font-size:1.2rem;
+
+  font-size: 1.2rem;
 }
-.linksDiv a{
-  text-decoration : none;
-  color:#fff;
-  transition : 0.3s
+.linksDiv a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
 }
-.linksDiv a:hover{
+.linksDiv a:hover {
   text-shadow: 0px 0px 3px #fff;
-  transform: translateX(15px);
+  /* transform: translateX(15px); */
+  padding-left: 15px;
 }

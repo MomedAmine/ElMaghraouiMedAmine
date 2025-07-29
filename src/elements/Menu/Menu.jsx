@@ -16,11 +16,12 @@ function Menu(params) {
         }}
         className={styles.linksDiv}
       >
-        <a href ="#HOME">HOME</a>
-        <a href ="#EDUCATION">EDUCATION</a>
-        <a href ="#SKILLS">SKILLS</a>
-        <a href ="#PROJECTS">PROJECTS</a>
-        <a href ="#REACH_OUT">REACH_OUT</a>
+        <a href="#HOME">HOME</a>
+        <a href="#EDUCATION">EDUCATION</a>
+        <a href="#SKILLS">SKILLS</a>
+        <a href="#EXPERIENCE">EXPERIENCE</a>
+        <a href="#PROJECTS">PROJECTS</a>
+        <a href="#REACH_OUT">REACH_OUT</a>
       </div>
     </div>
   );
