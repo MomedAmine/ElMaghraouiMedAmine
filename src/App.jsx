@@ -6,6 +6,7 @@ import Edu from "./elements/edu/Edu";
 import Skills from "./elements/skills/Skills";
 import Menu from "./elements/Menu/Menu";
 import Exps from "./elements/Exps/Exps";
+import Projects from "./elements/Projects/Projects";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -32,6 +33,7 @@ function App() {
         icon="fa-solid fa-diagram-project"
         title="PROJECTS"
         Id="PROJECTS"
+        content = {<Projects/>}
       />
       <Section
         icon="fa-solid fa-address-card"

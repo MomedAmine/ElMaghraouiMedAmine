@@ -14,7 +14,7 @@ function Carousel(params) {
     return(
         <div className= {styles.carContainer}>
             <div className= {styles.contentcontainer}>
-                <div className= {styles.contentVue} style={{ transform: `translateY(-${curr * 55}vh` }}>
+                <div className= {styles.contentVue} style={{ transform: `translateY(-${curr * params.compHeight}vh` }}>
                     {vuesList}
                 </div>
             </div>

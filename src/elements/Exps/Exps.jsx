@@ -117,7 +117,7 @@ function Exps(params) {
 
   return (
     <div className={styles.expsContainer}>
-      <Carousel jobs ={expsList}/>
+      <Carousel jobs ={expsList} compHeight={56}/>
     </div>
   );
 }

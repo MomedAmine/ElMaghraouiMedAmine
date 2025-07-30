@@ -5,6 +5,7 @@ function Skills(params) {
         <div className={styles.skillsContainer}>
             <SSkill Icon = {<i className="fa-brands fa-python"></i>} ttl = "Python"/>
             <SSkill Icon = {<i className="fa-brands fa-square-js"></i>} ttl = "Javascript"/>
+            <SSkill Icon = {<i className="fa-brands fa-react"></i>} ttl = "React"/>
             <SSkill Icon = {<i className="fa-brands fa-html5"></i>} ttl = "HTML5"/>
             <SSkill Icon = {<i className="fa-brands fa-node-js"></i>} ttl = "Node.js"/>
             <SSkill Icon = {<i className="fa-brands fa-css3-alt"></i>} ttl = "CSS3"/>
