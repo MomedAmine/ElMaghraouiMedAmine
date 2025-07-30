@@ -45,7 +45,7 @@
   padding-left: 15px;
 }
 
-@media screen and (width<500px) {
+@media screen and (width<700px) {
   .menuContainer {
     position: sticky;
     top: 0;

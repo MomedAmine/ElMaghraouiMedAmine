@@ -6,9 +6,9 @@ function Exp(params) {
         <h3 className={styles.divTtl}>{params.role}</h3>
         <div>
           <p className={styles.divTtl}>{params.company}</p>
-          <p style={{ transform: "translateY(-100%)" }}>{params.date}</p>
+          <p >{params.date}</p>
           <div>
-            <p>{params.work}</p>
+            {params.work}
           </div>
         </div>
       </div>

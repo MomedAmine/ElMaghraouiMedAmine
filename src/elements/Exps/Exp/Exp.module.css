@@ -10,3 +10,10 @@
   padding: 5px;
   transform: translateY(-100%) translateX(-20px);
 } */
+.expWraper{
+    padding: 0px;
+    height: 55vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+}

@@ -1,7 +1,12 @@
 import styles from "./Exps.module.css";
 import Exp from "./Exp/Exp";
+import Carousel from "../carousel/Carousel";
+import { useState } from "react";
 
 function Exps(params) {
+  const [shownDiv,setShowndiv] = useState(0)
+  
+
   const intern1 = {
     role: "Software Engineering Intern",
     date: "Jul 2022-Sept 2022",
@@ -51,7 +56,7 @@ function Exps(params) {
   };
   const jobCap = {
     role: "Consultant",
-    date: "Feb 2023–July 2023",
+    date: "July 2023 - Present",
     company: "Capgemini Engineering",
     work: (
       <ul>
@@ -87,33 +92,32 @@ function Exps(params) {
       </ul>
     ),
   };
-
-  return (
-    <div className={styles.expsContainer}>
-      <div>
+  const expsList = [
         <Exp
           role={intern1.role}
           date={intern1.date}
           company={intern1.company}
           work={intern1.work}
-        />
-      </div>
-      <div>
+        />,
         <Exp
           role={intern2.role}
           date={intern2.date}
           company={intern2.company}
           work={intern2.work}
-        />
-      </div>
-      <div>
+        />,
         <Exp
           role={jobCap.role}
           date={jobCap.date}
           company={jobCap.company}
           work={jobCap.work}
-        />
-      </div>
+        />]
+  // for (let i = 0; i < expsList.length; i++) {
+  //   array[i] = div
+  // }
+
+  return (
+    <div className={styles.expsContainer}>
+      <Carousel jobs ={expsList}/>
     </div>
   );
 }

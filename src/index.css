@@ -22,3 +22,6 @@ html{
 body{
   background-color: #000;
 }
+*,*::after,*::before{
+  box-sizing: border-box;
+}
