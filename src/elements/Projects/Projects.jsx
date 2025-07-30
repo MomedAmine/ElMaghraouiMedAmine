@@ -1,7 +1,7 @@
 import styles from "./Projects.module.css"
 import Carousel from "../carousel/Carousel"
 import Project from "./Project/Project"
-// import { LP_Budgeteer} from "../../../assets/LP_Budgeteer.png";
+import LP_Budgeteer from "../../assets/LP_Budgeteer.png"
 
 function Projects(params) {
     const Budgeteer = {
@@ -17,7 +17,7 @@ function Projects(params) {
             <i className="fa-solid fa-fire"></i>,],
         link : "https://budgeteer-d17f6.web.app/#",
     }
-    const proj = <Project ttl={Budgeteer.title} description={Budgeteer.description} link={Budgeteer.link} tools={Budgeteer.tools}/>
+    const proj = <Project ttl={Budgeteer.title} img={LP_Budgeteer} description={Budgeteer.description} link={Budgeteer.link} tools={Budgeteer.tools}/>
     return(
         <div style={{maxWidth:'80vw'}}>
             {/* <Carousel jobs={proj}/> */}
