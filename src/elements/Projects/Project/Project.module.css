@@ -1,40 +1,54 @@
-.tooldiv{
+.tooldiv {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 2rem;
+  transition: ease-in-out 0.2s;
+}
+.tooldiv *:hover {
+  text-shadow: 0px 0px 3px #fff;
+  transform: scale(1.1);
+}
+.projContainer p {
+  font-size: 1.5rem;
+}
+.projContainer h4 {
+  font-size: 1.8rem;
+}
+.projContainer {
+  text-align: center;
+}
+.projContainer div {
+  margin: 15px 0px;
+}
+.projContainer img {
+  border-radius: calc(min(2vw, 15px));
+  max-width: calc(min(60vw, 550px));
+  height: auto;
+}
+.urlDiv button {
+  width: 100%;
+  padding: 5px;
+}
+.urlDiv button:hover {
+  cursor: pointer;
+}
+
+@media screen and (width>700px) {
+  .projContainer {
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: start;
     gap: 10px;
-    font-size: 2rem;
-    transition: ease-in-out 0.2s;
-}
-.tooldiv *:hover{
-    text-shadow: 0px 0px 3px #fff;
-    transform: scale(1.1);
-}
-.projContainer p{
-    font-size: 1.5rem;
-}
-.projContainer h4{
-    font-size: 1.8rem;
-}
-.projContainer{
-    text-align: center;
-}
-.projContainer div{
-    margin: 15px 0px;
-}
-.projContainer img{
-    border-radius: calc(min(2vw,15px));
-    max-width   : calc(min(60vw,550px));
-    height: auto;
-}
-.urlDiv button{
-    width: 100%;
-    padding: 5px;
-}
-.urlDiv button:hover{
-    cursor: pointer;
-}
-
-@media screen and (width>700) {
-
-    
+  }
+  .projContainer img {
+    max-width: calc(min(30vw, 550px));
+  }
+  .projContainer p {
+    font-size: 1rem;
+  }
+  .projContainer h4 {
+    font-size: 1.2rem;
+  }
 }
