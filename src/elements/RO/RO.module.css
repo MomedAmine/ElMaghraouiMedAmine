@@ -1,28 +1,41 @@
-.ros{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 3vw;
-    color: aqua;
-    transition: ease-in-out;
-    text-wrap: wrap;
+.ros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3vw;
+  color: aqua;
+  transition: ease-in-out;
+  text-wrap: wrap;
+  max-width: 80vh;
 }
-.ros a{
-    color: aqua;
-    text-decoration: none;
-    display: flex;
-    gap: 15px;
+.ros a {
+  color: aqua;
+  text-decoration: none;
+  display: flex;
+  gap: 15px;
 }
 
-.ros i{
-    font-size: 5rem;
+.ros i {
+  font-size: 5rem;
 }
-.ros p{
-    font-size: 2rem;
-     width: fit-content;
+.ros p {
+  font-size: 2rem;
+  width: fit-content;
 }
-.ros a:hover{
-    transform:translateX(10px);
-    color: aqua;
-    text-shadow: 0px 0px 5px aqua;
+.ros a:hover {
+  transform: translateX(10px);
+  color: aqua;
+  text-shadow: 0px 0px 5px aqua;
+}
+@media screen and (width<700px) {
+  .ros a {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ros p {
+    word-break: break-all;
+    font-size: 1rem;
+    text-align: center;
+  }
 }
