@@ -38,8 +38,7 @@ function Header(params) {
       <div className={styles.intro}>
         <p>
           I'm a <b>software developer</b> with hands-on experience in building
-          reliable fullstack applications, with solid technical expertise and a
-          consistent focus on delivering effective, real-world.
+          reliable fullstack applications, with solid technical expertise with a consistent focus on practical, effective solutions.
         </p>
       </div>
     </div>
