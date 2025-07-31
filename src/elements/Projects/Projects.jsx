@@ -1,7 +1,7 @@
 import styles from "./Projects.module.css"
 import Carousel from "../carousel/Carousel"
 import Project from "./Project/Project"
-import LP_Budgeteer from "../../assets/LP_Budgeteer.png"
+import LP_Budgeteer from "/assets/LP_Budgeteer.png?URL"
 
 function Projects(params) {
     const Budgeteer = {

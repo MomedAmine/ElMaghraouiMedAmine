@@ -2,12 +2,18 @@
     display: flex;
     justify-content: center;
     gap: 10px;
-    font-size: 1.2rem;
+    font-size: 2rem;
     transition: ease-in-out 0.2s;
 }
 .tooldiv *:hover{
     text-shadow: 0px 0px 3px #fff;
     transform: scale(1.1);
+}
+.projContainer p{
+    font-size: 1.5rem;
+}
+.projContainer h4{
+    font-size: 1.8rem;
 }
 .projContainer{
     text-align: center;
@@ -16,7 +22,7 @@
     margin: 15px 0px;
 }
 .projContainer img{
-    border-radius: 2vw;
+    border-radius: calc(min(2vw,15px));
     max-width   : calc(min(60vw,550px));
     height: auto;
 }

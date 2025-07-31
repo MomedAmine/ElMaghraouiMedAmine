@@ -1,5 +1,5 @@
 import styles from "./Header.module.css";
-import CVTOF from "../../assets/CVTOF2.png";
+import CVTOF from "/assets/CVTOF2.PNG?url";
 import { useState, useEffect } from "react";
 
 function Header(params) {
