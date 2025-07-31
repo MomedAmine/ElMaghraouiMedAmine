@@ -1,37 +1,39 @@
-.vUP{
-    transform: rotate(180deg);
+.vUP {
+  transform: rotate(180deg);
 }
-.carContainer{
-    display: grid;
-    grid-template-columns: 5fr 1fr;
-    place-items: center;
+.carContainer {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  place-items: center;
+  z-index: index 10;
+  padding: 0px;
 }
-.switchVue button:hover{
-    cursor: pointer;
+.switchVue button:hover {
+  cursor: pointer;
 }
-.switchVue button{
-    text-align: center;
-    font-size: 2rem;
-    background-color: transparent;
-    border-width: 0px;
+.switchVue button {
+  text-align: center;
+  font-size: 2rem;
+  background-color: transparent;
+  border-width: 0px;
 }
-.switchVue{
-    height: 50%;
-    /* max-width: 10%; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.switchVue {
+  height: 50%;
+  /* max-width: 10%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-.contentcontainer{
-    height: 55vh;
-    padding :0px;
-    overflow: hidden;
+.contentcontainer {
+  height: 55vh;
+  padding: 0px;
+  overflow: hidden;
 }
-.contentVue{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: 0;
-    left: 10px;
-    transition: ease-in-out 0.5s;
+.contentVue {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 0;
+  left: 10px;
+  transition: ease-in-out 0.5s;
 }

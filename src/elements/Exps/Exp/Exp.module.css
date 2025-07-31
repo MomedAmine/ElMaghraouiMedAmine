@@ -10,10 +10,17 @@
   padding: 5px;
   transform: translateY(-100%) translateX(-20px);
 } */
-.expWraper{
-    padding: 0px;
-    height: 55vh;
-    overflow-y: scroll;
-    -ms-overflow-style: none;
-    scrollbar-width: none; 
+.expWraper {
+  padding: 0px;
+  background-color: black;
+  height: 55vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+@media screen and (width<700px) {
+  .expWraper ul {
+    list-style-position: inside;
+    padding-left: 0px;
+  }
 }

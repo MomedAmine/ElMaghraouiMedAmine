@@ -4,8 +4,7 @@ import Carousel from "../carousel/Carousel";
 import { useState } from "react";
 
 function Exps(params) {
-  const [shownDiv,setShowndiv] = useState(0)
-  
+  const [shownDiv, setShowndiv] = useState(0);
 
   const intern1 = {
     role: "Software Engineering Intern",
@@ -93,31 +92,32 @@ function Exps(params) {
     ),
   };
   const expsList = [
-        <Exp
-          role={intern1.role}
-          date={intern1.date}
-          company={intern1.company}
-          work={intern1.work}
-        />,
-        <Exp
-          role={intern2.role}
-          date={intern2.date}
-          company={intern2.company}
-          work={intern2.work}
-        />,
-        <Exp
-          role={jobCap.role}
-          date={jobCap.date}
-          company={jobCap.company}
-          work={jobCap.work}
-        />]
+    <Exp
+      role={intern1.role}
+      date={intern1.date}
+      company={intern1.company}
+      work={intern1.work}
+    />,
+    <Exp
+      role={intern2.role}
+      date={intern2.date}
+      company={intern2.company}
+      work={intern2.work}
+    />,
+    <Exp
+      role={jobCap.role}
+      date={jobCap.date}
+      company={jobCap.company}
+      work={jobCap.work}
+    />,
+  ];
   // for (let i = 0; i < expsList.length; i++) {
   //   array[i] = div
   // }
 
   return (
     <div className={styles.expsContainer}>
-      <Carousel jobs ={expsList} compHeight={56}/>
+      <Carousel jobs={expsList} compHeight={55} />
     </div>
   );
 }
