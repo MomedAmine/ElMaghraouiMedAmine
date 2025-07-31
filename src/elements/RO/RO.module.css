@@ -1,17 +1,28 @@
 .ros{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    font-size: 5rem;
     gap: 3vw;
     color: aqua;
     transition: ease-in-out;
+    text-wrap: wrap;
 }
 .ros a{
     color: aqua;
     text-decoration: none;
+    display: flex;
+    gap: 15px;
 }
-.ros i:hover{
-    transform: scale(1.2);
+
+.ros i{
+    font-size: 5rem;
+}
+.ros p{
+    font-size: 2rem;
+     width: fit-content;
+}
+.ros a:hover{
+    transform:translateX(10px);
     color: aqua;
     text-shadow: 0px 0px 5px aqua;
 }
