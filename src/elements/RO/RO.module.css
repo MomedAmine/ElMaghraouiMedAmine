@@ -12,6 +12,7 @@
   color: aqua;
   text-decoration: none;
   display: flex;
+  align-items: center;
   gap: 15px;
   transition: ease 0.1s;
 }
